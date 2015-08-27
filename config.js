@@ -104,7 +104,7 @@ var config = convict({
 // load environment dependent configurationk
 loadConfigFile(
   config,
-  path.join("./config/", config.get("env") + ".json")
+  path.join("./config/production.json")
 );
 
 // validate
